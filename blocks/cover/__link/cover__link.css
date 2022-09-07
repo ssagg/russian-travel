@@ -6,8 +6,9 @@
   color: white;
   background: rgba(42, 44, 47, 0.3);
   transition: all .3s;
-  justify-content: flex-start;
-  }
+  justify-content: center;
+  align-items: center;
+}
 
 .cover__link:hover {
   background: rgba(42, 44, 47, 0.8);
