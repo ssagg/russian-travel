@@ -8,13 +8,6 @@
   text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover__subtitle {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 @media screen and (max-width: 482px) {
   .cover__subtitle {
     max-width: 288px;

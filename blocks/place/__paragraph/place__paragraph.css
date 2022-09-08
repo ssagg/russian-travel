@@ -1,24 +1,13 @@
 .place__paragraph {
-  margin: 0;
+  margin: 26px 0 0;
   padding: 0;
   font-size: 18px;
   font-weight: 400;
-  line-height: 29.34px;
+  line-height: 29px;
 }
 
-.place__paragraph:nth-of-type(1n) {
-  margin-top: 26px;
-}
-
-.place__paragraph:nth-of-type(1) {
+.place__paragraph:first-child {
   margin-top: 0;
-}
-
-@media screen and (max-width: 1024px) {
-  .place__paragraph {
-    font-size: 18px;
-    line-height: 29.34px;
-  }
 }
 
 @media screen and (max-width: 768px) {
